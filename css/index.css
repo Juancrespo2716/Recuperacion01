@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2? family= Marko+One & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Marcellus & display=swap');
+
+
+.body{
+    margin: 0px;
+}
+
+.title {
+    background-color: #242C93;
+    width: 100%;
+    height: 54px;
+    padding-top: 15px;
+}
+.title h1 {
+    
+    color: #FFF;
+    
+    font-family: 'Marko One', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.icon img {
+    width: 190px;
+    height: 90px;
+}
+
+.menu-navigation ul{
+    display: flex;
+    list-style-type:none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 44px;
+}
+
+.menu-navigation ul li a{
+    color: #EFC600;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    font-weight: 400; 
+    padding-right: 30px;
+    text-decoration: none; 
+}
+
+/* ESTILOS DE LOS ICONOS  */
+
+.icons-navigation {
+    display: flex;
+    padding-top: 46px;
+}
+
+.icons-navigation div {
+    display: flex;
+}
+
+.icons-navigation img {
+    width: 20px;
+    height: 24px;
+
+   } 
+
+.icons-navigation h4 {
+    width: 80px;
+    height: 24px;
+    color: #000;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+/* ESTILOS DEL MAIN  */
+.container-fluid{
+    width: 100%;
+}
+#subtitle {
+    color: red;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.offerts h2 {
+    color: #1C2C7C;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.offerts h3 {
+    color: #1C2C7C;
+    font-weight: 900;
+    font-size: 40px;
+}
+#delivery {
+    color: #1C2C7C;
+    font-size: 60px;
+    font-weight: 900;
+}
+.banner  {
+    height: 500px;
+}
+.offerts  {
+    padding-top: 60px;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+
+.title2 h1{
+    font-family: 'Marcellus', serif;
+    padding: 10px;
+}
+
+.list a{
+    font-family: 'Marcellus', serif;
+    color: #000;
+}
+
+/* ESTILOS DEL CARDS */
+
+
+
+.products .cards-products {
+    background-color: #e6e6e7;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    height: 500px;
+}
+
+.products .cards-products img{
+    height: 250px;
+    padding-left: 60px;
+    margin-top: 15px;    
+}
+
+.products .store-name {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+    padding: 17px 6px;
+    padding-bottom: 0;
+    text-align: left;
+    color: #666;
+}
+
+.products .cards-products  h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    margin-top: 11px;
+    margin-left: 6px;
+    min-height: 35px;
+    text-align: left;
+}
+
+.products .cards-products p {
+    margin-top: 15px;
+}
+* ESTILOS DE LOS PRECIOS */
+
+/* primero */
+
+.cards-products .antes{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes:before {
+    content: "S/59.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora:before {
+    content: "S/59.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold
+}
+.antes{
+    margin-left: 8px;
+}
+/* segundo */
+
+.cards-products .antes1{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes1:before {
+    content: "S/49.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora1{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora1:before {
+    content: "S/29.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold
+}
+/* tercero */
+.cards-products .antes2{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes2:before {
+    content: "S/69.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora2 {
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora2:before {
+    content: "S/59.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold
+}
+/* cuarto */
+.cards-products .antes3{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes3:before {
+    content: "S/89.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora3{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora3:before {
+    content: "S/49.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold
+}
+/* quinto */
+.cards-products .antes4 {
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes4:before {
+    content: "S/39.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora4{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora4:before {
+    content: "S/29.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold;
+}
+/* sexto */
+.cards-products .antes5 {
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+}
+
+span.antes5:before {
+    content: "S/89.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #8D8D8D;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 170px;
+}
+
+
+.cards-products .ahora5{
+    color: black;
+    text-align: right;
+    padding-left: 6px;
+    font-weight: bold
+}
+
+span.ahora5:before {
+    content: "S/79.90";
+    position: absolute;
+    margin-right: 100px;
+    color: #ff0b0b;
+    font-size: 14px;
+    padding-left: 170px;
+    font-weight: bold;
+}
+
+/* ESTILOS DEL BUTTOM */
+.cards-products button {
+    background-color: #ff0b0b;
+    color: #F4F4F4;
+    border: 2px solid red ;
+    border-radius: 7px;
+    margin-left: 110px;
+}
+footer{
+    margin-top: 30px;
+    background-color: #1C2C7C;
+}
+.footer{
+    padding-top: 40px;
+}
+footer h2{
+    color: #ffffff;
+    text-align: center;
+}
+.links-interest ul{
+    list-style-type: none;
+    
+}
+.links-interest a {
+    color: #ffffff;
+}
+.payment-methods {
+    padding-left: 98px;
+}
+.payment-methods img{
+    width: 150px !important;
+}
+.visa{
+    width: 180px;
+}
+.ubication img{
+    width: 200px;
+}
+.copyright{
+    margin-top: 40px;
+    background-color: #979DC8;
+    text-align: center;
+    
+}
+.copyright h1{
+    font-size: 20px;
+}
+
+
+/*for desktop - lg */
+@media(min-width:992px) and (max-width:1600px){
+    .menu{
+        display: none;
+    }
+}
+/* for tablet - md */
+@media(min-width:768px) and (max-width:991px){
+    .name{
+        display: none;
+    }
+    .icon img{
+        width: 120px;
+        height: 70px;
+    }
+    .menu-navigation ul{
+        padding-top: 30px;
+    }
+
+    .menu-navigation ul li a {
+        font-size: 14px !important;
+    }
+    
+    .icons-navigation {
+        padding-top: 30px;
+    }
+    .menu{
+        display: none;
+    }
+
+    .promotion{
+        display: none;
+    }
+    
+    .banner img {
+        height: 100%;
+    }
+    .list img{
+        display: none;
+    }
+    .products .cards-products img {
+        padding-left: 0px;
+        width: 100%;
+    }
+    span.antes:before {
+        padding-left: 130px;
+    }
+    span.ahora:before {
+        padding-left: 130px;
+    }
+    .cards-products button {
+        margin-left: 32px;
+    }
+    span.antes1:before {
+        padding-left: 130px;
+    }
+    span.ahora1:before {
+        padding-left: 130px;
+    }
+    span.antes2:before {
+        padding-left: 130px;
+    }
+    span.ahora2:before {
+        padding-left: 130px;
+    }
+    span.antes3:before {
+        padding-left: 130px;
+    }
+    span.ahora3:before {
+        padding-left: 130px;
+    }
+    span.antes4:before {
+        padding-left: 130px;
+    }
+    span.ahora4:before {
+        padding-left: 130px;
+    }
+    span.antes5:before {
+        padding-left: 130px;
+    }
+    span.ahora5:before {
+        padding-left: 130px;
+    }
+    .ms-5{
+        margin-left: 0px !important;
+    }
+    .payment-methods {
+        padding-left: 36px;
+    }
+    .footer h2{
+        font-size: 22px;
+    }
+    .ubication img {
+        width: 90%;
+        padding-left: 20px;
+    }
+}
+    
+
+
+
+
+/* for phone - sm */
+@media(min-width:320px) and (max-width:767px){
+    .name{
+        display: none;
+    }
+    .icon img{
+        width: 120px;
+        height: 70px;
+    }
+    .icons-navigation img {
+        margin-left: 30px;
+    }
+    .links{
+        display: none;
+    }
+    .icons-navigation {
+        padding-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .amburguesa{
+        padding-left: 0px !important;
+    }
+    .menu button{
+        background-color: darkblue;
+        margin-top: 30px;
+
+    }
+    
+
+    .promotion{
+        display: none;
+    }
+    .banner {
+        height: 450px;
+    }
+    .list img{
+        display: none;
+    }
+    .products .cards-products img {
+        padding-left: 0px;
+        width: 100%;
+    }
+    span.antes:before {
+        padding-left: 130px;
+    }
+    span.ahora:before {
+        padding-left: 130px;
+    }
+    .cards-products button {
+        margin-left: 46px;
+    }
+    span.antes1:before {
+        padding-left: 130px;
+    }
+    span.ahora1:before {
+        padding-left: 130px;
+    }
+    span.antes2:before {
+        padding-left: 130px;
+    }
+    span.ahora2:before {
+        padding-left: 130px;
+    }
+    span.antes3:before {
+        padding-left: 130px;
+    }
+    span.ahora3:before {
+        padding-left: 130px;
+    }
+    span.antes4:before {
+        padding-left: 130px;
+    }
+    span.ahora4:before {
+        padding-left: 130px;
+    }
+    span.antes5:before {
+        padding-left: 130px;
+    }
+    span.ahora5:before {
+        padding-left: 130px;
+    }
+    .ms-5{
+        margin-left: 0px !important;
+    }
+    .payment-methods {
+        padding-left: 16px;
+    }
+    .footer h2{
+        font-size: 16px;
+    }
+    .ubication img {
+        width: 90%;
+        padding-left: 30px;
+    }
+    .payment-methods img {
+        width: 120px !important;
+    }
+    .links-interest ul {
+        padding-left: 4px;
+    }
+
+}
